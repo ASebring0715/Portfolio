@@ -3,6 +3,14 @@ h1{
 }
 
 p{
-    background-color: aqua;
+    
     color: black;
+    padding: 2px;
 }
+
+div{
+    border: 2px solid black;
+    margin: auto;
+    width: 80%;
+}
+
