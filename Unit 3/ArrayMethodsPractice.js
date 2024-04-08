@@ -3,7 +3,7 @@ var button = document.getElementById("addToArr");
 var userInput = document.getElementById("userInput");
 var newNum = parseInt(userInput);
 
-var newBlankArr = [newNum];
+var newBlankArr = [10, 12, 24, 64, 45];
 
 var update = newBlankArr.reduce((total, currentValue, currentIndex)=>{
     return total + currentValue;
@@ -19,3 +19,10 @@ newBlankArr.pop();
 
 console.log(newBlankArr);
 
+newBlankArr.unshift(55);
+
+console.log(newBlankArr);
+
+newBlankArr.shift();
+
+console.log(newBlankArr);
