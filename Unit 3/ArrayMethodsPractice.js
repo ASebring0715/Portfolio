@@ -26,3 +26,9 @@ console.log(newBlankArr);
 newBlankArr.shift();
 
 console.log(newBlankArr);
+
+var numArray = newBlankArr.map((current, index)=>{
+    return index + " " + current;
+});
+
+console.log(numArray);
