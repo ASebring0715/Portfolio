@@ -116,3 +116,4 @@ printLevelOrder(treeT);
 
 // Display arrays on page
 const arrayOut = document.querySelector(".arrayOut");
+arrayOut.innerHTML = printPreorder(tree);
