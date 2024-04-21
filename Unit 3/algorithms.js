@@ -1,3 +1,4 @@
+const arrayOut = document.querySelector(".arrayOut");
 
 // leaf class
 class Leaf {
@@ -48,7 +49,7 @@ function printPreorder(tree){
 }
 console.log("Depth first search of tree is")
 printPreorder(tree) 
-
+arrayOut.innerHTML = printPreorder(tree);
 // Put into deptharr[]
 
 // Breadth first search
@@ -115,5 +116,5 @@ printLevelOrder(treeT);
 
 
 // Display arrays on page
-const arrayOut = document.querySelector(".arrayOut");
-arrayOut.innerHTML = printPreorder(tree);
+//const arrayOut = document.querySelector(".arrayOut");
+arrayOut.innerHTML = printLevelorder(tree);
