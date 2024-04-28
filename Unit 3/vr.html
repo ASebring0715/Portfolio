@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#7D3C98"></a-sphere>
+      <a-sphere position="0 2.25 -4" rotation="-90 0 0" width="4" height="4" color="#17202A"></a-sphere>
+      <a-sky color="#ECECEC"></a-sky>
+
+      <a-torus-knot position="0 1.25 -5" color="#D402B7" arc="180" p="2" q="7" radius="5" radius-tubular="0.1"></a-torus-knot>
+      
+      <a-entity camera look-controls wasd-controls="acceleration:100" position="0 1.6 0"></a-entity>
+
+      
+      <a-cone height="3.5" color="#E59866" radius-bottom="1" radius-top="0" position="2 -2 2" rotation="0 0 180"></a-cone>
+      <a-sphere position="2 0 2" radius="1" color="#A9DFBF"></a-sphere>
+      <a-torus-knot position="2 1 2" color="#F50808" arc="180" p="1" q="6" radius="0.25" radius-tubular="0.05"></a-torus-knot>
+
+      <a-cone height="3.5" color="#997F53" radius-bottom="1" radius-top="0" position="5 -2 -2" rotation="0 0 180"></a-cone>
+      <a-sphere position="5 0 -2" radius="1" color="#F50890"></a-sphere>
+      <a-torus-knot position="5 1 -2" color="#D2B4DE" arc="180" p="1" q="6" radius="0.25" radius-tubular="0.01"></a-torus-knot>
+      
+
+      <a-box position="10 10 10" color="#15D8E5" depth="5" height="10" width="2"></a-box>
+    
+    
+    </a-scene>
+  </body>
+</html>
